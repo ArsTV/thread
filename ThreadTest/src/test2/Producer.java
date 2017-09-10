@@ -1,4 +1,4 @@
-package Test2;
+package test2;
 
 class Producer implements Runnable{
 	Store store;

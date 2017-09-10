@@ -1,4 +1,4 @@
-package Test2;
+package test2;
 
 class Customer implements Runnable{
 	Store store;

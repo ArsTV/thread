@@ -1,4 +1,4 @@
-package Test2;
+package test2;
 
 class Store{
    private int product=0;
@@ -12,7 +12,7 @@ class Store{
       }
       product--;
       System.out.println("Покупатель купил 1 товар");
-      System.out.println("Товаров на складе: " + product);
+      System.out.println("Товаров на �?кладе: " + product);
       notify();
    }
    public synchronized void put() {
@@ -25,7 +25,7 @@ class Store{
       }
       product++;
       System.out.println("Производитель добавил 1 товар");
-      System.out.println("Товаров на складе: " + product);
+      System.out.println("Товаров на �?кладе: " + product);
       notify();
    }
 }
